@@ -1,0 +1,81 @@
+# ---------------------------------------------------------------
+# Raíz del proyecto
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Editores / IDEs
+.idea/
+.vscode/
+.nova/
+.zed/
+.cursor/
+.codex/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Herramientas locales
+.claude/settings.local.json
+
+# ---------------------------------------------------------------
+# back_prueba (Laravel)
+# ---------------------------------------------------------------
+/back_prueba/vendor/
+/back_prueba/node_modules/
+/back_prueba/public/build/
+/back_prueba/public/hot
+/back_prueba/public/storage
+/back_prueba/public/fonts-manifest.dev.json
+/back_prueba/storage/*.key
+/back_prueba/storage/pail
+/back_prueba/storage/app/public/*
+/back_prueba/storage/framework/cache/data/*
+/back_prueba/storage/framework/sessions/*
+/back_prueba/storage/framework/testing/*
+/back_prueba/storage/framework/views/*
+/back_prueba/storage/logs/*
+/back_prueba/bootstrap/cache/*.php
+/back_prueba/.env
+/back_prueba/.env.backup
+/back_prueba/.env.production
+/back_prueba/auth.json
+/back_prueba/.phpunit.cache/
+/back_prueba/.phpunit.result.cache
+/back_prueba/.phpactor.json
+/back_prueba/_ide_helper.php
+/back_prueba/_ide_helper_models.php
+/back_prueba/.phpstorm.meta.php
+/back_prueba/Homestead.json
+/back_prueba/Homestead.yaml
+
+# Base de datos local SQLite
+/back_prueba/database/*.sqlite
+/back_prueba/database/*.sqlite-journal
+/back_prueba/database/*.sqlite3
+
+# ---------------------------------------------------------------
+# vite-project (Vite / React / TS)
+# ---------------------------------------------------------------
+/vite-project/node_modules/
+/vite-project/dist/
+/vite-project/dist-ssr/
+/vite-project/.vite/
+/vite-project/coverage/
+/vite-project/*.local
+/vite-project/.env
+/vite-project/.env.local
+/vite-project/.env.*.local
+/vite-project/npm-debug.log*
+/vite-project/yarn-debug.log*
+/vite-project/yarn-error.log*
+/vite-project/pnpm-debug.log*
+/vite-project/*.tsbuildinfo
+
+# No ignorar los ejemplos de entorno
+!back_prueba/.env.example
+!vite-project/.env.example
